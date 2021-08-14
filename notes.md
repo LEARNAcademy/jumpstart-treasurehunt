@@ -1,4 +1,4 @@
-HTML Notes
+## HTML Notes
 
 - Folder on desktop called treasurehunt
 - Opened text editor of choice
@@ -13,3 +13,4 @@ HTML Notes
 - A tags take href attributes
 - Ids are labels for tags
 - Navigating to an id uses a hash mark
+- Tables have nested table rows (tr) and table rows have nested table delimiters (td)
