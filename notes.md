@@ -205,3 +205,25 @@ td:hover {
   background-color: darkgoldenrod;
 }
 ```
+
+- to add a background image
+```css
+background-image: url()
+```
+- use other background elements to adjust how your image centers and interacts with your page 
+```css
+  {background-position: center;
+  background-size: cover;
+  background-attachment: fixed;}
+  ```
+- flexbox
+
+```css
+{display: flex;
+justify-content: ______;}
+```
+
+- padding adjusts the size and keeps does not overlap with other objects
+```css
+{padding: 20px;}
+```
