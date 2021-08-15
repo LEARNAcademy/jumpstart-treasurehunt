@@ -10,7 +10,11 @@ h1 {
 }
 
 body {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-image: url(https://live.staticflickr.com/3748/12302239423_780d6f5ca0_b.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 p {
@@ -21,12 +25,27 @@ p {
 .banana {
   color: cadetblue;
 }
+#goblet{
+  display: flex;
+  justify-content: center;
 
+}
 /* id selector - only one element */
 #warning {
   color: red;
 }
-
+table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+td{
+  font-size: 100px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: grey;
+  opacity: 0.7;
+}
 /* psuedo-selector - targets the state of an element */
 td:hover {
   color: white;
