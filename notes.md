@@ -170,6 +170,59 @@ const sayHello = () => {
 
 sayHello()
 ```
+# Script Tag
+```html
+<script type="text/javascript" src="treasure-day2.js"></script>
+```
+
+# Connection
+```javascript
+alert("javascript is connected")
+_________________________
+const treasure = () => {
+  alert("treasure function connected")
+}
+```
+
+# ID AND ONCLICK
+```html
+<div id="gameboard">
+      <table>
+        <tr>
+          <td id=0 onclick="treasure(0)">?</td>
+          <td id=1 onclick="treasure(1)">?</td>
+        </tr>
+      </table>
+    </div>
+    <p id="outcome" style="font-size: 50px;"></p>
+```
+
+# Connection
+```javascript
+const treasure = (location) => {
+  alert(location)
+}
+```
+
+# Random Numbers
+
+```javascript
+Math.random()
+Math.floor(Math.random() * 9)
+```
+
+# Assigning locations
+```javascript   
+    var treasureLocation = 4
+    var bombLocation = 7
+```
+
+
+# Re-assigning "Locations"
+
+```javascript
+    getElementById(ID-GOES-HERE).innerHTML
+```
 
 ## CSS Notes
 - CSS - Cascading styling sheets
